@@ -1,11 +1,9 @@
 package ch04;
 
-import sun.plugin2.main.client.WDonatePrivilege;
-
 import java.util.Scanner;
 
 public class DoWhileTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int sum = 0, val = 0;
         do {
@@ -13,6 +11,6 @@ public class DoWhileTest {
             val = scan.nextInt();
             sum = sum + val;
         } while(val != 0);
-        System.out.println("합게 : " + sum);
-        }
+        System.out.println("합계 : " + sum);
     }
+}

@@ -1,6 +1,7 @@
 package ch02;
 
 public class VariableExample {
+
     public static void main(String[] args) {
         byte b;
         short s;
@@ -21,13 +22,15 @@ public class VariableExample {
         score = score + score + score;
         System.out.println(score);
 
-        short s1 = -129;
+        short s1 = -300;
         byte b1 = (byte)s1;
         System.out.println(b1);
 
-        final int score2 = 11;
-        //score2 = 12; //이거안된다. 상수는 한번 입력된 값은
-        //바꿀수없다.
+        final int score2;
+        score2 = 10;
+        //score2 = 12; //이거 안된다. 상수는 한번 입력된 값은 바꿀 수 없다.
 
     }
 }
+
+
